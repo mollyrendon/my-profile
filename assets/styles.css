@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #e7edee;
+  background-color: #93e3f1;
   font-family: Helvetic, Arial, sans-serif;
 }
 
 /* Header Styles Start*/
 header {
   padding: 20px 35px;
-  background-color: #06a2f0;
+  background-color: #035077;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -60,7 +60,7 @@ header nav ul li a {
 
 /*Footer Styles Start*/
 footer {
-  background: #06a2f0;
+  background: #035077;
   width: 100%;
   padding: 40px 35px;
   display: flex;
@@ -80,7 +80,7 @@ footer div {
   text-align: right;
 }
 
-footer p {
+footer a {
   color: #ffffff;
 }
 
@@ -88,3 +88,16 @@ section {
   padding: 60px;
 }
 /*Footer Styles End*/
+
+/* Content Section Start*/
+
+.content {
+}
+
+.content h2 {
+  color: #022638;
+  font-size: 30px;
+}
+
+.content p {
+}
