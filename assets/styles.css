@@ -80,7 +80,7 @@ footer div {
   text-align: right;
 }
 
-footer a {
+footer div a {
   color: #ffffff;
 }
 
@@ -89,8 +89,7 @@ section {
 }
 /*Footer Styles End*/
 
-/* Content Section Start*/
-
+/*Content Styles Start*/
 .content {
 }
 
@@ -100,4 +99,7 @@ section {
 }
 
 .content p {
+  color: black;
 }
+
+/*Content Styles End*/
