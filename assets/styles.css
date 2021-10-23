@@ -58,6 +58,31 @@ header nav ul li a {
 }
 /*Header Styles End*/
 
+/* Content Section */
+.section-title {
+  font-size: 48px;
+  color: #035077;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: #035077;
+}
+
+.content p {
+  line-height: 1.7;
+  color: black;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* Content Section */
+
 /*Footer Styles Start*/
 footer {
   background: #035077;
@@ -88,18 +113,3 @@ section {
   padding: 60px;
 }
 /*Footer Styles End*/
-
-/*Content Styles Start*/
-.content {
-}
-
-.content h2 {
-  color: #022638;
-  font-size: 30px;
-}
-
-.content p {
-  color: black;
-}
-
-/*Content Styles End*/
