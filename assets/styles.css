@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #93e3f1;
+  --secondary-color: #035077;
+  --tertiary-color: #ffffff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -5,14 +11,14 @@
 }
 
 body {
-  background-color: #93e3f1;
+  background-color: var(--primary-color);
   font-family: Helvetic, Arial, sans-serif;
 }
 
 /* Header Styles Start*/
 header {
   padding: 20px 35px;
-  background-color: #035077;
+  background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -28,14 +34,14 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 48px;
-  color: #ffffff;
+  color: var(--tertiary-color);
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--tertiary-color);
 }
 
 header nav {
@@ -61,19 +67,16 @@ header nav ul li a {
 /* Content Section */
 .section-title {
   font-size: 48px;
-  color: #035077;
+  color: var(--secondary-color);
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
+  border-color: var(--secondary-color);
 }
 
-.primary-border {
-  border-color: #035077;
-}
-
-.content p {
+.about-me--content p {
   line-height: 1.7;
   color: black;
   width: 80%;
@@ -85,31 +88,38 @@ header nav ul li a {
 
 /*Footer Styles Start*/
 footer {
-  background: #035077;
+  background: var(--secondary-color);
   width: 100%;
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 30px 35px;
 }
 
 footer h2 {
-  color: #ffffff;
+  color: var(--tertiary-color);
   font-size: 40px;
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-footer div {
-  line-height: 1.5;
+.contact-img {
+  width: 15%;
+  max-width: 100%;
+}
+
+.info-list {
   text-align: right;
+  line-height: 1.5;
+  padding-right: 10px;
 }
 
 footer div a {
-  color: #ffffff;
+  color: var(--tertiary-color);
+}
+
+footer div p {
+  color: var(--primary-color);
 }
 
 section {
-  padding: 60px;
+  padding: 30px;
 }
 /*Footer Styles End*/
