@@ -84,6 +84,25 @@ header nav ul li a {
   margin: 0 auto;
   text-align: center;
 }
+
+.container {
+  background: url(./hero-bg.jpg);
+  background-size: 100%;
+  background-position: left;
+  height: 300px;
+}
+
+.container-box {
+  width: 150px;
+  height: 50px;
+  background: var(--secondary-color);
+}
+
+.container-box div {
+  color: var(--primary-color);
+  text-align: center;
+}
+
 /* Content Section */
 
 /*Footer Styles Start*/
