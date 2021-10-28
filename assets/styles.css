@@ -109,7 +109,7 @@ header nav ul li a {
 footer {
   background: var(--secondary-color);
   width: 100%;
-  padding: 30px 35px;
+  padding: 20px 20px;
 }
 
 footer h2 {
@@ -119,6 +119,7 @@ footer h2 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/*Do I just need to do the max-width?*/
 .contact-img {
   width: 15%;
   max-width: 100%;
@@ -127,7 +128,7 @@ footer h2 {
 .info-list {
   text-align: right;
   line-height: 1.5;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 footer div a {
