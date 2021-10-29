@@ -39,6 +39,12 @@ header h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/*Do I just need to do the max-width?*/
+.header-img {
+  width: 15%;
+  max-width: 100%;
+}
+
 header a {
   text-decoration: none;
   color: var(--tertiary-color);
@@ -64,7 +70,7 @@ header nav ul li a {
 }
 /*Header Styles End*/
 
-/* Content Section */
+/* About Me Section Start */
 .section-title {
   font-size: 48px;
   color: var(--secondary-color);
@@ -84,26 +90,45 @@ header nav ul li a {
   margin: 0 auto;
   text-align: center;
 }
+/*About Me Section End*/
 
-.container {
-  background: url(./hero-bg.jpg);
+/*Projects Section Start*/
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.project-1 {
+  background: url(./run\ buddy.PNG);
   background-size: 100%;
-  background-position: left;
+  background-position: right;
   height: 300px;
 }
 
-.container-box {
+.project-2 {
+  background: url(./3aaf252a8163fba4d0875bccc2ab38ad.jpg);
+  background-size: 50%;
+  background-position: right;
+  height: 200px;
+}
+
+.project-3 {
+  background: url(./istockphoto-1220017909-170667a.jpg);
+}
+
+.box {
   width: 150px;
   height: 50px;
   background: var(--secondary-color);
 }
 
-.container-box div {
+.box div a {
   color: var(--primary-color);
   text-align: center;
 }
-
-/* Content Section */
+/*Projects Section End*/
 
 /*Footer Styles Start*/
 footer {
@@ -115,20 +140,13 @@ footer {
 footer h2 {
   color: var(--tertiary-color);
   font-size: 40px;
-  margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/*Do I just need to do the max-width?*/
-.contact-img {
-  width: 15%;
-  max-width: 100%;
 }
 
 .info-list {
   text-align: right;
   line-height: 1.5;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 footer div a {
@@ -143,3 +161,72 @@ section {
   padding: 30px;
 }
 /*Footer Styles End*/
+
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
+}
+
+/*Media Query for Smaller Desktop Screens and Smaller*/
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+}
+
+/*Media Query for Tablets and Smaller*/
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+}
+
+/*Media Query for Mobile Phones and Smaller*/
+@media screen and (max-width: 575px) {
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+}
