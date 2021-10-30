@@ -20,7 +20,7 @@ header {
   padding: 20px 35px;
   background-color: var(--secondary-color);
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
@@ -39,10 +39,9 @@ header h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/*Do I just need to do the max-width?*/
 .header-img {
-  width: 15%;
-  max-width: 100%;
+  width: 75px;
+  margin-left: 20px;
 }
 
 header a {
@@ -52,6 +51,8 @@ header a {
 
 header nav {
   margin: 7px 0;
+  position: absolute;
+  right: 0;
 }
 
 header nav ul {
@@ -98,24 +99,61 @@ header nav ul li a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-1 {
   background: url(./run\ buddy.PNG);
-  background-size: 100%;
-  background-position: right;
+  background-size: cover;
+  background-position: absolute;
+  top: 0;
   height: 300px;
+  max-width: 1000px;
+  min-width: 700px;
+  flex: 1 1 auto;
 }
 
 .project-2 {
   background: url(./3aaf252a8163fba4d0875bccc2ab38ad.jpg);
-  background-size: 50%;
-  background-position: right;
-  height: 200px;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  max-width: 500px;
+  min-width: 350px;
+  flex: 1 0 auto;
+  margin: 20px 0px;
 }
 
 .project-3 {
   background: url(./istockphoto-1220017909-170667a.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  max-width: 500px;
+  min-width: 350px;
+  flex: 1 0 auto;
+  margin: 20px 0px;
+}
+
+.project-4 {
+  background: url(./chitchat.png);
+  background-size: cover;
+  height: 250px;
+  max-width: 500px;
+  min-width: 350px;
+  flex: 1 0 auto;
+  margin: 20px 0px;
+}
+
+.project-5 {
+  background: url(./dichoric-glass-d20-dice-urwizards-300x250.jpg);
+  background-size: cover;
+  height: 250px;
+  max-width: 500px;
+  min-width: 350px;
+  flex: 1 0 auto;
+  margin: 20px 0px;
 }
 
 .box {
@@ -222,7 +260,7 @@ section {
     width: 95%;
   }
 
-  .intro p {
+  .info-list {
     width: 100%;
   }
 

@@ -11,6 +11,8 @@ A website to showcase my projects and resume.
 
 ## Website
 
+https://mollyrendon.github.io/assignment-2/
+
 ## Contribution
 
-Made with ❤️️ by Molly Rendon
+Made by Molly Rendon
