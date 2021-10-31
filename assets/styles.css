@@ -20,7 +20,6 @@ header {
   padding: 20px 35px;
   background-color: var(--secondary-color);
   display: flex;
-  /*justify-content: space-between;*/
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
@@ -79,7 +78,7 @@ header nav ul li a {
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
-  width: 50%;
+  width: fit-content;
   border-color: var(--secondary-color);
 }
 
@@ -103,14 +102,37 @@ header nav ul li a {
   align-items: center;
 }
 
+.projects-container {
+  display: flex;
+  width: 75%;
+  flex-wrap: wrap;
+}
+
+.project-link.big {
+  width: 100%;
+}
+
+.project-link.small {
+  width: 50%;
+}
+
+.project {
+  position: relative;
+  margin: 20px 0;
+  border: 5px solid var(--secondary-color);
+}
+
+.project.small {
+  width: 50%;
+  height: 250px;
+}
+
 .project-1 {
   background: url(./run\ buddy.PNG);
   background-size: cover;
-  background-position: absolute;
   top: 0;
   height: 300px;
-  max-width: 1000px;
-  min-width: 700px;
+  width: 100%;
   flex: 1 1 auto;
 }
 
@@ -119,10 +141,6 @@ header nav ul li a {
   background-size: cover;
   background-position: center;
   height: 250px;
-  max-width: 500px;
-  min-width: 350px;
-  flex: 1 0 auto;
-  margin: 20px 0px;
 }
 
 .project-3 {
@@ -130,10 +148,6 @@ header nav ul li a {
   background-size: cover;
   background-position: center;
   height: 250px;
-  max-width: 500px;
-  min-width: 350px;
-  flex: 1 0 auto;
-  margin: 20px 0px;
 }
 
 .project-4 {
@@ -143,7 +157,6 @@ header nav ul li a {
   max-width: 500px;
   min-width: 350px;
   flex: 1 0 auto;
-  margin: 20px 0px;
 }
 
 .project-5 {
@@ -153,17 +166,25 @@ header nav ul li a {
   max-width: 500px;
   min-width: 350px;
   flex: 1 0 auto;
-  margin: 20px 0px;
 }
 
 .box {
   width: 150px;
-  height: 50px;
+  height: auto;
   background: var(--secondary-color);
+  position: absolute;
+  line-height: 25px;
+  left: 0;
+  bottom: 5%;
 }
 
-.box div a {
+.box h3 {
   color: var(--primary-color);
+  text-align: center;
+}
+
+.box p {
+  color: var(--tertiary-color);
   text-align: center;
 }
 /*Projects Section End*/
