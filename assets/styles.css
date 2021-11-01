@@ -118,13 +118,12 @@ header nav ul li a {
 
 .project {
   position: relative;
-  margin: 20px 0;
+  margin: 20px 0px;
   border: 5px solid var(--secondary-color);
-}
-
-.project.small {
-  width: 50%;
+  background-size: cover;
   height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .project-1 {
@@ -136,36 +135,25 @@ header nav ul li a {
   flex: 1 1 auto;
 }
 
+.project.small {
+  width: 50%;
+  height: 250px;
+}
+
 .project-2 {
   background: url(./3aaf252a8163fba4d0875bccc2ab38ad.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 250px;
 }
 
 .project-3 {
   background: url(./istockphoto-1220017909-170667a.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 250px;
 }
 
 .project-4 {
   background: url(./chitchat.png);
-  background-size: cover;
-  height: 250px;
-  max-width: 500px;
-  min-width: 350px;
-  flex: 1 0 auto;
 }
 
 .project-5 {
   background: url(./dichoric-glass-d20-dice-urwizards-300x250.jpg);
-  background-size: cover;
-  height: 250px;
-  max-width: 500px;
-  min-width: 350px;
-  flex: 1 0 auto;
 }
 
 .box {
@@ -221,19 +209,6 @@ section {
 }
 /*Footer Styles End*/
 
-/* UTILITIES */
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.flex-row {
-  display: flex;
-}
-
 /*Media Query for Smaller Desktop Screens and Smaller*/
 @media screen and (max-width: 980px) {
   header {
@@ -244,17 +219,21 @@ section {
 
   header h1 {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 
   header nav ul {
-    margin-top: 20px;
+    margin-top: 60px;
     width: 100%;
-    justify-content: center;
+    justify-content: right;
   }
 
   header nav ul li a {
     font-size: 20px;
+  }
+
+  .header-img {
+    margin-left: 0;
   }
 
   footer h2,
