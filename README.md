@@ -11,10 +11,10 @@ A website to showcase my projects and resume.
 
 ## Website
 
-https://mollyrendon.github.io/assignment-2/
+https://mollyrendon.github.io/my-profile/
 
 ## Contribution
 
 Made by Molly Rendon
+![Molly Rendon Profile](https://user-images.githubusercontent.com/92175961/145446928-1adc6e1d-4aff-4e7a-b931-f32fce8bd06d.png)
 
-![Molly Rendon Pro](https://user-images.githubusercontent.com/92175961/139610480-70908b78-556f-4c2a-8b76-def778203ac3.png)
