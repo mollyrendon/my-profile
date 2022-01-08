@@ -136,24 +136,32 @@ header nav ul li a {
 }
 
 .project.small {
-  width: 50%;
+  width: 47.5%;
   height: 250px;
+}
+
+.project.left {
+  margin-right: 5%;
 }
 
 .project-2 {
   background: url(./run\ buddy.PNG);
+  background-size: cover;
 }
 
 .project-3 {
-  background: url(./istockphoto-1220017909-170667a.jpg);
+  background: url(./Work\ Day\ Schedule.png);
+  background-size: cover;
 }
 
 .project-4 {
-  background: url(./chitchat.png);
+  background: url(./Password\ Generat.png);
+  background-size: cover;
 }
 
 .project-5 {
-  background: url(./dichoric-glass-d20-dice-urwizards-300x250.jpg);
+  background: url();
+  background-size: cover;
 }
 
 .box {
