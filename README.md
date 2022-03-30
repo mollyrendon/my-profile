@@ -17,5 +17,5 @@ https://mollyrendon.github.io/my-profile/
 
 Made by Molly Rendon
 
-![Molly Rendon Profile (1)](https://user-images.githubusercontent.com/92175961/148699723-731e4560-eeb1-405b-bc3e-4b147e09cd02.png)
+![Molly Rendon Profile (2)](https://user-images.githubusercontent.com/92175961/160928417-67facb05-3df6-4c58-8e5c-aa561c4ff468.png)
 
